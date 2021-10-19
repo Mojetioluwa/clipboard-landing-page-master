@@ -1,0 +1,88 @@
+:root{
+    --Strong_Cyan: hsl(171, 66%, 44%);
+    --Light_Blue: hsl(233, 100%, 69%);
+    --Dark_Grayish_Blue: hsl(210, 10%, 33%);
+    --Grayish_Blue: hsl(201, 11%, 66%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+header{
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 40px;
+}   
+
+header h1{
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn-1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    background-color: var(--Strong_Cyan); 
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 18px 1px var(--Strong_Cyan);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    background-color: var(--Light_Blue); 
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 18px 1px var(--Light_Blue);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
